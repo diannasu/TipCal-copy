@@ -19,6 +19,8 @@
 		D034EC26194BB9AD003E41BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D034EC0E194BB9AD003E41BC /* UIKit.framework */; };
 		D034EC2E194BB9AD003E41BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D034EC2C194BB9AD003E41BC /* InfoPlist.strings */; };
 		D034EC30194BB9AD003E41BC /* TipCalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D034EC2F194BB9AD003E41BC /* TipCalTests.m */; };
+		D034EC3C194BB9C3003E41BC /* TIpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D034EC3A194BB9C3003E41BC /* TIpViewController.m */; };
+		D034EC3D194BB9C3003E41BC /* TIpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D034EC3B194BB9C3003E41BC /* TIpViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		D034EC2B194BB9AD003E41BC /* TipCalTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TipCalTests-Info.plist"; sourceTree = "<group>"; };
 		D034EC2D194BB9AD003E41BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D034EC2F194BB9AD003E41BC /* TipCalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TipCalTests.m; sourceTree = "<group>"; };
+		D034EC39194BB9C3003E41BC /* TIpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIpViewController.h; sourceTree = "<group>"; };
+		D034EC3A194BB9C3003E41BC /* TIpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIpViewController.m; sourceTree = "<group>"; };
+		D034EC3B194BB9C3003E41BC /* TIpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TIpViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +116,9 @@
 				D034EC1A194BB9AD003E41BC /* AppDelegate.m */,
 				D034EC1C194BB9AD003E41BC /* Images.xcassets */,
 				D034EC11194BB9AD003E41BC /* Supporting Files */,
+				D034EC39194BB9C3003E41BC /* TIpViewController.h */,
+				D034EC3A194BB9C3003E41BC /* TIpViewController.m */,
+				D034EC3B194BB9C3003E41BC /* TIpViewController.xib */,
 			);
 			path = TipCal;
 			sourceTree = "<group>";
@@ -220,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D034EC15194BB9AD003E41BC /* InfoPlist.strings in Resources */,
+				D034EC3D194BB9C3003E41BC /* TIpViewController.xib in Resources */,
 				D034EC1D194BB9AD003E41BC /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -241,6 +250,7 @@
 			files = (
 				D034EC1B194BB9AD003E41BC /* AppDelegate.m in Sources */,
 				D034EC17194BB9AD003E41BC /* main.m in Sources */,
+				D034EC3C194BB9C3003E41BC /* TIpViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
